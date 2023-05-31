@@ -1,0 +1,20 @@
+{
+  "name": "nodesvod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest app.spec.js --detectOpenHandles",
+    "start": "node server.js"
+  },
+  "author": "betflix",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
+}
